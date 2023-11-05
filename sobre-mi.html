@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <!--ESTILOS-->
+  <link rel="stylesheet" href="Assets/css/scroll.css"/>
+  <link rel="stylesheet" href="./Assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"/>
+  <link rel="stylesheet" href="./Assets/fonts/poppins/poppins.css"/>
+  <link rel="stylesheet" type="text/css" href="Assets/css/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="Assets/css/styles.css"/>
+  <link rel="stylesheet" type="text/css" href="Assets/css/responsive.css" />
+
+  <!-- script js -->
+  <script src="Assets/js/menu.js" defer></script>
+
+
+  <title>PORTAFOLIO-RUBEN HERNANDEZ</title>
+</head>
+<body>
+  <!--Layout principal-->
+  <div class="layout">
+    <!--Barra lateral (info del usuario)-->
+    <aside class="layout__aside">
+      <section class="aside__user-info">
+        <!--Informacion general del usuario-->
+        <div class="user-info__general">
+          <div class="user-info__container-image">
+            <img src="./Assets/img/foto cv maquetacion.png" class="user-info__image" alt="Foto de perfil del usuario"/>
+            <h2 class="user-info__name">Rubén HERNÁNDEZ</h2>
+            <h4 class="user-info__job">Desarrollador web</h4>
+          </div>
+
+
+        </div>
+
+        <!--Menu de navegacion-->
+        <nav class="user-info__menu">
+          <ul class="menu__list">
+
+            <li class="menu__option">
+              <a href="index.html" class="menu__link">
+                <i class="menu__icon fa-solid fa-house"></i>
+                <span class="menu__overlay">Inicio</span>
+              </a>
+            </li>
+
+            <li class="menu__option">
+              <a href="sobre-mi.html" class="menu__link  menu__link--active">
+                <i class="menu__icon fa-solid fa-user"></i>
+                <span class="menu__overlay">Sobre mi</span>
+              </a>
+            </li>
+
+            <li class="menu__option">
+              <a href="curriculum vitae.html" class="menu__link">
+                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                <span class="menu__overlay">Curriculum vitae</span>
+              </a>
+            </li>
+
+            <li class="menu__option">
+              <a href="portafolio.html" class="menu__link">
+                <i class="menu__icon fa-solid fa-briefcase"></i>
+                <span class="menu__overlay">Portafolio</span>
+              </a>
+            </li>
+
+            <li class="menu__option">
+              <a href="blog.html" class="menu__link">
+                <i class="menu__icon fa-solid fa-book"></i>
+                <span class="menu__overlay">Blog</span>
+              </a>
+            </li>
+
+            <li class="menu__option">
+              <a href="contacto.html" class="menu__link">
+                <i class="menu__icon fa-solid fa-envelope"></i>
+                <span class="menu__overlay">Contacto</span>
+              </a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <!--Links a redes sociales-->
+        <div class="user-info__user-links">
+          <ul class="links__social">
+            <li class="social__option">
+              <a href="#" class="social__link">
+                <i class="social__icon fa-brands fa-youtube"></i>
+              </a>
+            </li>
+
+            <li class="social__option">
+              <a href="https://www.linkedin.com/in/rubenhernandezdominguez/" class="social__link">
+                <i class="social__icon fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+
+            <li class="social__option">
+              <a href="#" class="social__link">
+                <i class="social__icon fa-brands fa-instagram"></i>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <!--Boton del CV-->
+        <div class="user-info__buttons">
+          <a href="https://drive.google.com/uc?id=1Yfg6i572qdnyWfuUjTkyOxyxg45jEVAc&export=download" class="user-info__btn">DESCARGAR CV</a>
+        </div>
+
+        <!--fOOTER PIE DE PAGINA-->
+        <footer class="user-info__footer">
+          &copy;2023 RUBEN HERNANDEZ
+        </footer>
+
+
+
+
+      </section>
+
+    </aside>
+
+    <!-- Menu de hamburguesa -->
+    <div class="layout__menu-toogle">
+      <i class="toogle__icon fa-solid fa-bars"></i>
+      <i class="toogle__icon fa-solid fa-xmark"></i>
+    </div>
+
+    <!--Contenido principal-->
+    <main class="layout__content">
+      <section class="content__page content__about">
+        <!-- Esto es lo que cambia -->
+        <header class="about__header">
+          <h1 class="about__title">
+            Sobre <span class="title__color">Mi</span>
+          </h1>
+
+          <section class="about__personal-info">
+            <article class="personal-info__bio">
+              <p class="personal-info__description">
+                Después de más de 10 años en diferentes puestos de responsabilidad en la construcción como jefe de obra de andamios y técnico en la detección  del amianto y al mismo tiempo apasionado de las nuevas tecnologías, me he visto casi sin darme cuenta reconvertido en desarrollador web.Al acabar un bootcamp como desarrollador web y móvil en la escuela Le Wagon a Nantes he desarrollado y participado en varios proyectos de desarrollo.
+
+              </p>
+            </article>
+
+            <div class="personal-info__data">
+              <ul class="personal-info__list">
+
+                <li class="personal-info__option">
+                  <span class="personal-info__title">Edad:</span>
+                  <span class="personalinfo__value">36</span>
+                </li>
+
+                <li class="personal-info__option">
+                  <span class="personal-info__title">Pais:</span>
+                  <span class="personal-info__value">Isla de La Réunion 🇷🇪</span>
+                </li>
+
+                <li class="personal-info__option">
+                  <span class="personal-info__title">Dirección:</span>
+                  <span class="personal-info__value">15 impasse de Ferblantiers appartement A51 Sainte MARIE 97438</span>
+                </li>
+
+                <li class="personal-info__option">
+                  <span class="personal-info__title">Correo:</span>
+                  <span class="personal-info__value-correo">rubenhernandezdominguezpro@gmail.com</span>
+                </li>
+
+                <li class="personal-info__option">
+                  <span class="personal-info__title">Teléfono:</span>
+                  <span class="personal-info__value">+262 692 29 67 87</span>
+                </li>
+
+
+              </ul>
+
+
+            </div>
+
+          </section>
+
+
+        </header>
+
+        <section clas="about__services">
+          <header class="services__header">
+            <h2 class="services__title">
+              Lo que <span class="title__color">hago</span>
+            </h2>
+
+          </header>
+
+          <div class="services__container">
+
+            <article class="services__service">
+              <div class="service__icon">
+                <i class="service__real-icon fa-solid fa-code" ></i>
+              </div>
+
+              <div class="service__content">
+
+                <h3 class="service__title">Programación</h3>
+                <p class="service__description">Durante el bootcamp en Le Wagon aprendí el lenguaje de programación Ruby y a desarrollar aplicaciones con el framework Ruby on rails.
+                  A posteriori me he seguido formando y puedo desarrollar aplicaciones  con PHP también.
+                  </p>
+              </div>
+
+
+            </article>
+
+            <article class="services__service">
+              <div class="service__icon">
+                <i class="service__real-icon fa-solid fa-computer" ></i>
+              </div>
+
+              <div class="service__content">
+
+                <h3 class="service__title">Desarrollo web</h3>
+                <p class="service__description">En el desarrollo web cuento con competencias de un desarrollador full-stack, es decir, puedo desarrollar una web tanto a nivel diseño como a nivel técnico.</p>
+              </div>
+
+
+            </article>
+
+            <article class="services__service">
+              <div class="service__icon">
+                <i class="service__real-icon fa-solid fa-hammer" ></i> <i class="service__real-icon fa-solid fa-building" ></i>
+              </div>
+
+              <div class="service__content">
+
+                <h3 class="service__title">Estructuras y andamios</h3>
+                <p class="service__description">Con 10 años de experiencia en montaje y desmontaje de andamios ( 6 como jefe de obra), soy capaz de llevar un proyecto desde la concepción de planos hasta el fin de obra pasando por la gestión de equipos y material necesario.</p>
+              </div>
+
+
+            </article>
+
+            <article class="services__service">
+              <div class="service__icon">
+                <i class="service__real-icon fa-solid fa-search"></i> <i class="service__real-icon fa-solid fa-building"></i>
+              </div>
+
+              <div class="service__content">
+
+                <h3 class="service__title">Diagnostico Immobiliario</h4>
+                <p class="service__description">Tengo 5 años de experiencia como técnico en diagnóstico inmobiliario con especialidad en diagnóstico de termitas, amianto e instalación eléctrica.</p>
+              </div>
+
+
+            </article>
+
+
+
+          </div>
+        </section>
+
+        <section class="about__reviews">
+          <header class="reviews__header">
+            <h2 class="reviews__title">
+              Re<span class="review__title">señas</span>
+            </h2>
+          </header>
+          <div class="reviews__container">
+            <article class="reviews__review">
+              <div class="review__img-container">
+                <img src="Assets/img/testimonio1.jpg" alt="Cara de un cliente" class="review__image">
+              </div>
+
+              <div class="review__description">
+                <p class="review__text">
+                  Tuve el placer de trabajar con Rubén HERNÁNDEZ y no podría estar más satisfecha con su servicio. Creó un sitio web excepcional para mi empresa, teniendo en cuenta todas mis exigencias y aportando valiosas sugerencias para mejorar la experiencia del usuario.
+                </p>
+              </div>
+
+              <div class="review__author">
+                <div class="review__author-info">
+                  <h4 class="review__name">Ana Lopez</h4>
+                  <h5 class="review__company">Developpers S.A</h5>
+                </div>
+
+                <div class="review__icon">
+                  <i class="review__icon fa-solid fa-quote-right" ></i>
+                </div>
+              </div>
+            </article>
+
+            <article class="reviews__review">
+              <div class="review__img-container">
+                <img src="Assets/img/testimonio2.jpg" alt="Cara de un cliente" class="review__image">
+              </div>
+
+              <div class="review__description">
+                <p class="review__text">
+                  Tuve el placer de trabajar con Rubén HERNÁNDEZ y no podría estar más satisfecho con su servicio. Creó un sitio web excepcional para mi empresa, teniendo en cuenta todas mis exigencias y aportando valiosas sugerencias para mejorar la experiencia del usuario.
+                </p>
+              </div>
+
+              <div class="review__author">
+                <div class="review__author-info">
+                  <h4 class="review__name">Ruben Martinez</h4>
+                  <h5 class="review__company">Full-stack S.A</h5>
+                </div>
+
+                <div class="review__icon">
+                  <i class="review__icon fa-solid fa-quote-right" ></i>
+                </div>
+              </div>
+            </article>
+          </div>
+
+
+
+
+
+        </section>
+
+        <!-- <section class="about__clients">
+          <header class="clients__header">
+            <h2 class="clients__title">
+              Clientes
+            </h2>
+          </header>
+
+          <div class="clients__container">
+
+            <article class="clients__item">
+              <a href="#" class="clients__link">
+                <img src="Assets/img/cliente-1.png" alt="Foto de cliente" class="clients__image">
+              </a>
+
+
+            </article>
+
+            <article class="clients__item">
+              <a href="#" class="clients__link">
+                <img src="Assets/img/cliente-2.png" alt="Foto de cliente" class="clients__image">
+              </a>
+
+
+            </article>
+
+            <article class="clients__item">
+              <a href="#" class="clients__link">
+                <img src="Assets/img/cliente-3.png" alt="Foto de cliente" class="clients__image">
+              </a>
+
+
+            </article>
+
+            <article class="clients__item">
+              <a href="#" class="clients__link">
+                <img src="Assets/img/cliente-4.png" alt="Foto de cliente" class="clients__image">
+              </a> -->
+
+
+            <!-- </article>
+
+            <article class="clients__item">
+              <a href="#" class="clients__link">
+                <img src="Assets/img/cliente-5.png" alt="Foto de cliente" class="clients__image">
+              </a>
+
+
+            </article> -->
+
+
+          <!-- </div>
+
+
+        </section>
+
+        <section class="about__prices">
+          <header class="prices__header">
+            <h2 class="prices__title">
+              Precio
+            </h2>
+          </header>
+
+          <div class="prices__container">
+            <article class="prices__box">
+              <div class="prices__subtitle">
+                <span class="prices__text">Normal</span>
+              </div>
+
+              <div class="prices__price">
+                <span class="prices__number">20€</span>
+                <small class="prices__advice">Al mes</small>
+              </div>
+
+              <div class="prices__buy">
+                <a href="#" class="prices__btn">Prueba gratis</a>
+              </div>
+
+              <div class="prices__reward">
+                Un curso de desarrollo web
+              </div>
+
+              <div class="prices__reward">
+                Soporte a preguntas y dudas
+              </div>
+
+              <div class="prices__reward">
+                Certificado de finalizacion
+              </div>
+
+
+
+
+            </article>
+
+            <article class="prices__box">
+              <div class="prices__subtitle">
+                <span class="prices__text">Premium</span>
+              </div>
+
+              <div class="prices__price">
+                <span class="prices__number">50€</span>
+                <small class="prices__advice">Al mes</small>
+              </div>
+
+              <div class="prices__buy">
+                <a href="#" class="prices__btn">Prueba gratis</a>
+              </div>
+
+              <div class="prices__reward">
+                5 cursos de desarrollo web
+              </div>
+
+              <div class="prices__reward">
+                Soporte a preguntas y dudas prioritario
+              </div>
+
+              <div class="prices__reward">
+                Certificado de finalizacion
+              </div>
+
+
+
+
+            </article>
+
+
+          </div>
+        </section> -->
+
+        <section class="about__extra">
+          <header clas="extra__header">
+            <h2 class="extra__title">Información <span class="title__color">Extra</span></h2>
+          </header>
+
+          <div class="extra__container">
+            <article class="extra__info">
+              <i class= "extra__icon fa-solid fa-heart"></i>
+              <h4 class="extra__subtitle">Clientes contentos</h4>
+              <span class="extra__quantity">+ 1.000</span>
+
+
+            </article>
+
+            <article class="extra__info">
+              <i class= "extra__icon fa-solid fa-clock"></i>
+              <h4 class="extra__subtitle">Horas formandome</h4>
+              <span class="extra__quantity"> + 800h</span>
+
+
+            </article>
+
+            <article class="extra__info">
+              <i class= "extra__icon fa-solid fa-star"></i>
+              <h4 class="extra__subtitle">Valoración</h4>
+              <span class="extra__quantity">9.7</span>
+
+
+            </article>
+
+
+          </div>
+
+
+        </section>
+
+      </section>
+    </main>
+
+
+
+
+  </div>
+  <nav class="user-info__menu">
+    <ul class="menu__list">
+
+      <li class="menu__option">
+        <a href="index.html" class="menu__link">
+          <i class="menu__icon fa-solid fa-house"></i>
+          <span class="menu__overlay">Inicio</span>
+        </a>
+      </li>
+
+      <li class="menu__option">
+        <a href="sobre-mi.html" class="menu__link">
+          <i class="menu__icon fa-solid fa-user"></i>
+          <span class="menu__overlay">Sobre-mi</span>
+        </a>
+      </li>
+
+      <li class="menu__option">
+        <a href="curriculum vitae.html" class="menu__link">
+          <i class="menu__icon fa-solid fa-graduation-cap"></i>
+          <span class="menu__overlay">Curriculum vitae</span>
+        </a>
+      </li>
+
+      <li class="menu__option">
+        <a href="portafolio.html" class="menu__link">
+          <i class="menu__icon fa-solid fa-briefcase"></i>
+          <span class="menu__overlay">Portafolio</span>
+        </a>
+      </li>
+
+      <li class="menu__option">
+        <a href="blog.html" class="menu__link">
+          <i class="menu__icon fa-solid fa-book"></i>
+          <span class="menu__overlay">Blog</span>
+        </a>
+      </li>
+
+      <li class="menu__option">
+        <a href="contacto.html" class="menu__link">
+          <i class="menu__icon fa-solid fa-envelope"></i>
+          <span class="menu__overlay">Contacto</span>
+        </a>
+      </li>
+
+    </ul>
+  </nav>
+
+</body>
+</html>

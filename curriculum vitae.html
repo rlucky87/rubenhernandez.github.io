@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <!--ESTILOS-->
+  <link rel="stylesheet" href="Assets/css/scroll.css" />
+  <link rel="stylesheet" href="./Assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+  <link rel="stylesheet" href="./Assets/fonts/poppins/poppins.css" />
+  <link rel="stylesheet" type="text/css" href="Assets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="Assets/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="Assets/css/responsive.css" />
+
+  <!-- script js -->
+  <script src="Assets/js/menu.js" defer></script>
+
+
+  <title>PORTAFOLIO-RUBEN HERNANDEZ</title>
+</head>
+
+<body>
+  <!--Layout principal-->
+  <div class="layout">
+    <!--Barra lateral (info del usuario)-->
+    <aside class="layout__aside">
+      <section class="aside__user-info">
+        <!--Informacion general del usuario-->
+        <div class="user-info__general">
+          <div class="user-info__container-image">
+            <img src="./Assets/img/foto cv maquetacion.png" class="user-info__image" alt="Foto de perfil del usuario" />
+            <h2 class="user-info__name">Rubén HERNÁNDEZ</h2>
+            <h4 class="user-info__job">Desarrollador web</h4>
+          </div>
+
+
+        </div>
+
+        <!--Menu de navegacion-->
+        <nav class="user-info__menu">
+          <ul class="menu__list">
+
+            <li class="menu__option">
+              <a href="index.html" class="menu__link">
+                <i class="menu__icon fa-solid fa-house"></i>
+                <span class="menu__overlay">Inicio</span>
+              </a>
+            </li>
+
+            <li class="menu__option">
+              <a href="sobre-mi.html" class="menu__link">
+                <i class="menu__icon fa-solid fa-user"></i>
+                <span class="menu__overlay">Sobre mi</span>
+              </a>
+            </li>
+
+            <li class="menu__option">
+              <a href="curriculum vitae.html" class="menu__link menu__link--active">
+                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                <span class="menu__overlay">Curriculum vitae</span>
+              </a>
+            </li>
+
+            <li class="menu__option">
+              <a href="portafolio.html" class="menu__link">
+                <i class="menu__icon fa-solid fa-briefcase"></i>
+                <span class="menu__overlay">Portafolio</span>
+              </a>
+            </li>
+
+            <li class="menu__option">
+              <a href="blog.html" class="menu__link">
+                <i class="menu__icon fa-solid fa-book"></i>
+                <span class="menu__overlay">Blog</span>
+              </a>
+            </li>
+
+            <li class="menu__option">
+              <a href="contacto.html" class="menu__link">
+                <i class="menu__icon fa-solid fa-envelope"></i>
+                <span class="menu__overlay">Contacto</span>
+              </a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <!--Links a redes sociales-->
+        <div class="user-info__user-links">
+          <ul class="links__social">
+            <li class="social__option">
+              <a href="#" class="social__link">
+                <i class="social__icon fa-brands fa-youtube"></i>
+              </a>
+            </li>
+
+            <li class="social__option">
+              <a href="https://www.linkedin.com/in/rubenhernandezdominguez/" class="social__link">
+                <i class="social__icon fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+
+            <li class="social__option">
+              <a href="#" class="social__link">
+                <i class="social__icon fa-brands fa-instagram"></i>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <!--Boton del CV-->
+        <div class="user-info__buttons">
+          <a href="https://drive.google.com/uc?id=1Yfg6i572qdnyWfuUjTkyOxyxg45jEVAc&export=download" class="user-info__btn">DESCARGAR CV</a>
+        </div>
+
+        <!--fOOTER PIE DE PAGINA-->
+        <footer class="user-info__footer">
+          &copy;2023 RUBEN HERNANDEZ
+        </footer>
+
+
+
+
+      </section>
+
+    </aside>
+
+    <!-- Menu de hamburguesa -->
+    <div class="layout__menu-toogle">
+      <i class="toogle__icon fa-solid fa-bars"></i>
+      <i class="toogle__icon fa-solid fa-xmark"></i>
+    </div>
+
+    <!--Contenido principal-->
+    <main class="layout__content">
+      <section class="content__page content__about">
+
+        <!-- Esto es lo que cambia -->
+
+        <header class="resume__header">
+          <h1 class="resume__title">Curriculum <span class="title__color">vitae</span></h1>
+
+        </header>
+
+        <div class="resume__container">
+
+
+          <section class="resume__left">
+            <header class="resume__subheader">
+
+              <h2 class="resume__subtitle">
+                <span class="title__color">Formación</span>
+              </h2>
+            </header>
+
+            <div class="resume__timelines">
+              <article class="timelines__timeline">
+                <header class="timeline__header">
+                  <h4 class="timeline__year">
+                    2022
+                  </h4>
+                  <span class="timeline__company">
+                    Le Wagon Nantes
+                  </span>
+                </header>
+
+                <div class="timeline__divider">
+
+                </div>
+
+
+
+                <div class="timeline__description">
+                  <h3 class="timeline__title">
+                    Desarrollo web
+                  </h3>
+
+                  <p class="timeline__text">
+                    Proyecto de fin de formación (WATCHONS): aplicación para encontrar bares y restaurantes disponibles para ver tu partido de fútbol favorito.
+                  </p>
+                </div>
+              </article>
+
+              <article class="timelines__timeline">
+                <header class="timeline__header">
+                  <h4 class="timeline__year">
+                    2018
+                  </h4>
+                  <span class="timeline__company">
+                    Sonelo
+                  </span>
+                </header>
+
+                <div class="timeline__divider">
+
+                </div>
+
+                <div class="timeline__description">
+                  <h3 class="timeline__title">
+                    Diagnosticador immobiliario
+                  </h3>
+
+                  <p class="timeline__text">
+                    Formación en el diagnóstico de amianto, termitas, instalación eléctrica, gaz , saneamiento etc.
+                  </p>
+                </div>
+              </article>
+
+            </div>
+
+            <header class="resume__subheader">
+
+              <h2 class="resume__subtitle">
+
+                <span class="title__color">Experiencia</span>
+              </h2>
+            </header>
+
+
+              <article class="timelines__item">
+                <header class="timeline__header">
+                  <h4 class="timeline__year">
+                    2022
+                  </h4>
+                  <span class="timeline__company">
+                    Le Wagon "Nantes"
+                  </span>
+                </header>
+
+                <div class="timeline__divider">
+
+                </div>
+
+
+
+                <div class="timeline__description">
+                  <h3 class="timeline__title">
+                    Desarrollador web
+                  </h3>
+
+                  <p class="timeline__text">
+                    Proyecto de fin de formación "WATCHONS".
+                  </p>
+                </div>
+              </article>
+
+              <article class="timelines__item">
+                <header class="timeline__header">
+                  <h4 class="timeline__year">
+                    2018-2023
+                  </h4>
+                  <span class="timeline__company">
+                    Bureau Veritas
+                  </span>
+                </header>
+
+                <div class="timeline__divider">
+
+                </div>
+
+
+
+                <div class="timeline__description">
+                  <h3 class="timeline__title">
+                    Diagnosticador immobiliario
+                  </h3>
+
+                  <p class="timeline__text">
+                    Técnico en búsqueda y tratamiento del amianto y termitas.
+                  </p>
+                </div>
+              </article>
+
+              <article class="timelines__item">
+                <header class="timeline__header">
+                  <h4 class="timeline__year">
+                    2017
+                  </h4>
+                  <span class="timeline__company">
+                    ABC SCAFFOLDING
+                  </span>
+                </header>
+
+                <div class="timeline__divider">
+
+                </div>
+
+
+
+                <div class="timeline__description">
+                  <h3 class="timeline__title">
+                    Gestor de parque de andamios
+                  </h3>
+
+                  <p class="timeline__text">
+                    Gestor de stock y desarrollo logístico y técnico para una especializada en cofraje y andamiaje de obras públicas.
+                  </p>
+                </div>
+              </article>
+          </section>
+
+
+
+          <section class="resume__right">
+            <header class="resume__subheader">
+              <h2 class="resume__subtitle">
+                Habilidades <span class="title__color"> de diseño</span>
+              </h2>
+
+            </header>
+
+            <div class="resume__skills">
+              <article class="skills__title">
+                <h4 class="skills__text">
+                  Diseño web
+                </h4>
+                <span class="skills__number">90%</span>
+
+
+              </article>
+
+              <div class="skills__progressbar">
+                <div class="skills__percentage skills__percentage--p1">
+
+                </div>
+              </div>
+
+              <article class="skills__title">
+                <h4 class="skills__text">
+                  Diseño logos
+                </h4>
+                <span class="skills__number">60%</span>
+
+
+              </article>
+
+              <div class="skills__progressbar">
+                <div class="skills__percentage skills__percentage--p2">
+
+                </div>
+              </div>
+
+              <article class="skills__title">
+                <h4 class="skills__text">
+                  Diseño mockups
+                </h4>
+                <span class="skills__number">70%</span>
+
+
+              </article>
+
+              <div class="skills__progressbar">
+                <div class="skills__percentage skills__percentage--p3">
+
+                </div>
+              </div>
+
+              <article class="skills__title">
+                <h4 class="skills__text">
+                  Diseño banners
+                </h4>
+                <span class="skills__number">80%</span>
+
+
+              </article>
+
+              <div class="skills__progressbar">
+                <div class="skills__percentage skills__percentage--p4">
+
+                </div>
+              </div>
+
+
+            </div>
+
+            <h2 class="resume__subtitle">
+              Habilidades <span class="title__color">de desarrollo</span>
+            </h2>
+
+            <div class="resume__skills">
+              <article class="skills__title">
+                <h4 class="skills__text">
+                  HTML/CSS
+                </h4>
+                <span class="skills__number">90%</span>
+
+
+              </article>
+
+              <div class="skills__progressbar">
+                <div class="skills__percentage skills__percentage--p5">
+
+                </div>
+              </div>
+
+              <article class="skills__title">
+                <h4 class="skills__text">
+                  JAVASCRIPT
+                </h4>
+                <span class="skills__number">60%</span>
+
+
+              </article>
+
+              <div class="skills__progressbar">
+                <div class="skills__percentage skills__percentage--p6">
+
+                </div>
+              </div>
+
+              <article class="skills__title">
+                <h4 class="skills__text">
+                  RUBY ON RAILS
+                </h4>
+                <span class="skills__number">70%</span>
+
+
+              </article>
+
+              <div class="skills__progressbar">
+                <div class="skills__percentage skills__percentage--p7">
+
+                </div>
+              </div>
+
+              <article class="skills__title">
+                <h4 class="skills__text">
+                  PHP
+                </h4>
+                <span class="skills__number">70%</span>
+
+
+              </article>
+
+              <div class="skills__progressbar">
+                <div class="skills__percentage skills__percentage--p8">
+
+                </div>
+              </div>
+
+
+            </div>
+
+            <h2 class="resume__subtitle">
+              Areas <span class="title__color">de conocimiento</span>
+            </h2>
+
+            <div class="resume__knowledges">
+              <ul class="knowledges__list">
+                <li class="knowledges__option">Programación</li>
+
+                <li class="knowledges__option">Formación</li>
+
+                <li class="knowledges__option">Gestión de equipos</li>
+
+                <li class="knowledges__option">Diseño web</li>
+
+                <li class="knowledges__option">Obras de andamiaje</li>
+
+                <li class="knowledges__option">Tratamiento del amianto</li>
+
+
+              </ul>
+
+
+            </div>
+
+
+
+
+
+
+
+          </div>
+
+
+
+
+
+
+
+
+
+          <div class="resume__certificates">
+            <header class="resume__subheader">
+              <h2 class="resume__subtitle">
+                <span class="title__color">Certificados</span>
+              </h2>
+
+              <section class="certificates__container">
+                <article class="certificates__certificate">
+                  <div class="certificate__logo">
+                    <img src="Assets/img/UC-91731fdf-6718-4e06-98c9-c70119279a1d.jpg" alt="certificado"
+                      class="certificates__image">
+                  </div>
+
+                  <div class="certificate__content">
+                    <h4 class="certificate__title">Curso de HTML</h4>
+                    <span class="certificate__id"></span>
+                    <span class="certificate__date">25 Julio 2023</span>
+                  </div>
+
+                </article>
+
+              </section>
+
+
+              <section class="certificates__container">
+                <article class="certificates__certificate">
+                  <div class="certificate__logo">
+                    <img src="Assets/img/master en css.jpg" alt="certificado" class="certificates__image">
+                  </div>
+
+                  <div class="certificate__content">
+                    <h4 class="certificate__title">Master en CSS</h4>
+                    <span class="certificate__id"></span>
+                    <span class="certificate__date">22 septiembre 2023</span>
+                  </div>
+
+                </article>
+
+              </section>
+
+              <section class="certificates__container">
+                <article class="certificates__certificate">
+                  <div class="certificate__logo">
+                    <img src="Assets/img/certification-rncp-ruben-hernandez-dominguez (1)_page-0001.jpg" alt="certificado"
+                      class="certificates__image">
+                  </div>
+
+                  <div class="certificate__content">
+                    <h4 class="certificate__title">Certificación desarrollador web</h4>
+                    <span class="certificate__id"></span>
+                    <span class="certificate__date">25 Julio 2023</span>
+                  </div>
+
+                </article>
+
+              </section>
+
+              <section class="certificates__container">
+                <article class="certificates__certificate">
+                  <div class="certificate__logo">
+                    <img src="Assets/img/DIPLOME DIAGNOSTIQUEUR.jpg" alt="certificado"
+                      class="certificates__image">
+                  </div>
+
+                  <div class="certificate__content">
+                    <h4 class="certificate__title">Diagnosticador immobiliario</h4>
+                    <span class="certificate__id"></span>
+                    <span class="certificate__date">8 Agosto 2018</span>
+                  </div>
+
+                </article>
+
+              </section>
+
+          </div>
+
+      </section>
+
+
+    </main>
+
+
+
+  </div>
+
+
+
+
+
+
+
+  </div>
+  <nav class="user-info__menu">
+    <ul class="menu__list">
+
+      <li class="menu__option">
+        <a href="index.html" class="menu__link">
+          <i class="menu__icon fa-solid fa-house"></i>
+          <span class="menu__overlay">Inicio</span>
+        </a>
+      </li>
+
+      <li class="menu__option">
+        <a href="sobre-mi.html" class="menu__link">
+          <i class="menu__icon fa-solid fa-user"></i>
+          <span class="menu__overlay">Sobre-mi</span>
+        </a>
+      </li>
+
+      <li class="menu__option">
+        <a href="curriculum vitae.html" class="menu__link  menu__link--active">
+          <i class="menu__icon fa-solid fa-graduation-cap"></i>
+          <span class="menu__overlay">Curriculum vitae</span>
+        </a>
+      </li>
+
+      <li class="menu__option">
+        <a href="portafolio.html" class="menu__link">
+          <i class="menu__icon fa-solid fa-briefcase"></i>
+          <span class="menu__overlay">Portafolio</span>
+        </a>
+      </li>
+
+      <li class="menu__option">
+        <a href="blog.html" class="menu__link">
+          <i class="menu__icon fa-solid fa-book"></i>
+          <span class="menu__overlay">Blog</span>
+        </a>
+      </li>
+
+      <li class="menu__option">
+        <a href="contacto.html" class="menu__link">
+          <i class="menu__icon fa-solid fa-envelope"></i>
+          <span class="menu__overlay">Contacto</span>
+        </a>
+      </li>
+
+    </ul>
+  </nav>
+
+</body>
+
+</html>
